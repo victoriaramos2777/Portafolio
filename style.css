@@ -4,38 +4,39 @@
   box-sizing: border-box;
 }
 
-nav {
-  background-color: rgb(73, 134, 113);
+body {
+  background-image: linear-gradient(to right, #ff69b4, rgb(131, 131, 228), gray);
 }
 
-.canvas {
-  background-color: rgb(73, 134, 113);
+.mia {
+  width: 100%;
 }
 
-.bg {
-  margin-top: 3.5%;
-  background-color: rgb(73, 134, 113);
+.card-body {
+  margin-top: 15%;
 }
 
-.mi-img {
-  width: 60%;
+.col-md-10 {
+  background-image: linear-gradient(to right, #ff69b4, rgb(131, 131, 228), gray);
 }
 
-.ps {
-  margin-top: 5%;
-}
-.ps__text__text1 {
-  margin-left: 13%;
-}
-.ps__text__text1__text2 {
-  margin-left: 25%;
+#title {
+  font-size: 3rem;
 }
 
-.ps__text,
-.ps__text__text1,
-.ps__text__text1__text2 {
-  font-size: 4rem;
-  font-family: "Dancing Script", cursive;
+#parrafo {
+  font-size: 3rem;
+}
+
+.text-muted {
+  font-size: 3rem;
+}
+
+.img {
+  width: 20%;
+  margin-top: 4%;
+  margin-left: 40%;
+  border-radius: 80%;
 }
 
 /*# sourceMappingURL=style.css.map */
