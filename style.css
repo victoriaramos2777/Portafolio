@@ -7,6 +7,7 @@
 body {
   background-image: linear-gradient(to right, #ff69b4, rgb(131, 131, 228), gray);
   width: 100%;
+  margin: 1%;
 }
 
 .mia {
@@ -15,7 +16,7 @@ body {
 }
 
 #card1 {
-  margin-top: 15%;
+  margin-top: 20%;
 }
 
 .col-md-10 {
@@ -23,15 +24,15 @@ body {
 }
 
 #title {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 #parrafo {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .text-muted {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 #img {
@@ -70,18 +71,24 @@ body {
   display: flex;
 }
 
+.group2 {
+  display: flex;
+}
+
 .cards {
-  width: 49%;
+  width: 50%;
   margin: 1%;
 }
 
 #git {
-  width: 10%;
+  width: 1.5rem;
 }
 
 .container {
   display: flex;
   justify-content: space-around;
+  margin: 0%;
+  padding: 0%;
   margin-top: 3%;
 }
 
@@ -90,7 +97,29 @@ body {
 }
 
 #btn {
+  width: 20%;
+  max-width: 40%;
   margin-top: 3%;
+}
+
+.link {
+  display: flex;
+  justify-content: space-around;
+  height: 15%;
+  margin-top: 2%;
+}
+
+.list-all {
+  margin: 0%;
+  padding: 0%;
+}
+
+.list {
+  margin: 0%;
+  padding: 0%;
+}
+.list__item {
+  margin-bottom: 5%;
 }
 
 /*# sourceMappingURL=style.css.map */
