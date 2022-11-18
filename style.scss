@@ -6,7 +6,7 @@
 
 body {
     background-image: linear-gradient(to right, #ff69b4, rgb(131, 131, 228), gray);
-
+ width: 100%;
 }
 
 .mia {
@@ -15,7 +15,7 @@ body {
 
 }
 
-.card-body {
+#card1 {
     margin-top: 15%;
 
 }
@@ -49,20 +49,16 @@ body {
     margin:0%;
     margin-top: 5%;
 }
-
-#card2 {
-    margin:0;
     
-}
 
 .img-icon {
     width: 3%;
     margin-top: 1%;
     
 }
-#card3 {
-   width: 38rem;
-   margin: 1%;
+#card4{
+  
+   margin: 0%;
 }
 
 .captura {
@@ -70,9 +66,38 @@ body {
 }
 
 #card4 {
-    width: 38rem;
-    margin: 0%;
+    width:100%;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.group1{
+    display: flex;
+
 }
 .cards{
+    width: 49%;
+ margin: 1%;
+}
+
+#git {
+    width: 10%;
+}
+
+.container {
     display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+
+.title {
+    display: grid;
+}
+
+#btn {
+   // margin-left: 40%;
+
+    margin-top: 3%;
 }
