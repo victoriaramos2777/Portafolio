@@ -6,8 +6,7 @@
 
 body {
     background-image: linear-gradient(to right, #ff69b4, rgb(131, 131, 228), gray);
- width: 100%;
- margin: 1%;
+     width: 100%;
 }
 
 .mia {
@@ -75,40 +74,41 @@ body {
 
 .group1{
     display: flex;
+    width: 100%;
+    height:30rem;
+    padding: 0%;
 
 }
 
 .group2 {
-
+    width: 100%;
     display: flex;
 }
 
 .cards{
     width: 50%;
+    height:50%;
     margin: 1%;
+    &__img {
+        width: 100%;
+        height: 25rem;
+    }
 }
+
 
 #git {
     width:1.5rem;
 }
 
-.container {
-    display: flex;
-    justify-content: space-around;
-    margin:0%;
-    padding: 0%;
-    margin-top: 3%;
-}
+
 
 .title {
     display: grid;
 }
 
-#btn {
-   
-    width: 20%;
-    max-width:40%;
-    margin-top: 3%;
+
+.img-i {
+    width: 30%;
 }
 
 .link {
@@ -119,19 +119,9 @@ body {
     
 }
 
-.list-all {
-    margin: 0%;
-    padding: 0%;
+
+.img-icons {
+    width: 20%;
+    margin-left: 25%;
 }
-
-.list {
-    margin: 0%;
-    padding: 0%;
-    &__item{
-        margin-bottom:5%;
-    }
-
-
-}
-
 

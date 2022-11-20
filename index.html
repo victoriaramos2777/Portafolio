@@ -20,7 +20,7 @@
     <nav class="navbar navbar-dark bg-dark fixed-top">
       <div class="container-fluid" class="nav">
         <a class="navbar-brand" href="#">
-          <img src="./assets/img/github.svg" alt="github" width="60" height="30" class="navbar-brand" href="#">@Victoria
+          <img src="./assets/img/527589.png" alt="github" width="60" height="30" class="navbar-brand" href="#">@Victoria
           Ramos 2777</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
           aria-controls="offcanvasDarkNavbar">
@@ -39,7 +39,7 @@
                 <a class="nav-link active" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -47,12 +47,15 @@
                   Projects
                 </a>
                 <ul class="dropdown-menu dropdown-menu-dark">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#Articulos">Articulos-de-ciclismos</a></li>
+                  <li><a class="dropdown-item" href="#">Universidad-Tecnica-Medioambiental</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
+                  <li><a class="dropdown-item" href="#">Universidad-Tecnica-Medioambiental</a></li>
+                  <li>
                   <li><a class="dropdown-item" href="#">Something else here</a></li>
+
                 </ul>
 
               </li>
@@ -76,7 +79,7 @@
           <div class="card-body" id="card1">
             <h5 id="title" class="card-title text-center">Hello, I'm Victoria Ramos</h5>
             <p id="parrafo" class="card-text text-center">I like to code and bring ideas to life in the browser</p>
-            <p class="card-text text-center"><small class="text-muted">Estudiante de front-end</small></p>
+            <p class="card-text text-center"><small class="text-muted">Student of front-end</small></p>
           </div>
         </div>
       </div>
@@ -84,43 +87,58 @@
   </header>
 
   <main>
+    <section class="about">
+      <a name="about"></a>
     <div class="row">
       <div class="col-sm">
         <div class="card">
           <img id="img" src="./assets/img/foto.jpeg" alt="fotografia">
           <div id="name" class="card-body">
             <h5 class="card-title text-center">MARIA VICTORIA RAMOS RODRIGUEZ</h5>
-            <p class="card-text text-center">me considero una persona responsable,alegre,optimista,ordenada,honesta y
-              positiva,con deseo de trabajar.</p>
-            <div class="container">
-              <div class="title">
-                <h5 class="text-rigth"> Habilidades</h5>
-                <h5 class="card-title text-rigth">conocimientos</h5>
-                <h5 class="text-rigth">Lenguajes de programacion</h5>
-              </div>
-              <div class="list-all">
-                <ul class="list">
-                  <li class="list-group-item list__item">Comunicacion</li>
-                  <li class="list-group-item list__item">Liderazgo</li>
-                  <li class="list-group-item list__item">Motivacion</li>
-                  <li class="list-group-item list__item">Trabajo en equipo</li>
-                </ul>
-                <ul class="list">
-                  <li class="list-group-item">Word</li>
-                  <li class="list-group-item">Excel</li>
-                  <li class="list-group-item">Computacion</li>
-                  <li class="list-group-item"></li>
-                </ul>
-                <ul class="list">
-                  <li class="list-group-item">HTML</li>
-                  <li class="list-group-item">CSS</li>
-                  <li class="list-group-item">SASS</li>
-                  <li class="list-group-item">GIT</li>
-                </ul>
-              </div>
-            </div>
+            <p class="card-text text-center">I consider myself a responsive, cheerful,optimistic,honest, positive, person with a desire to work.</p>
+            <div class="container table-responsive">
+              <table class="table">
+                <caption></caption>
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">skills</th>
+                    <th scope="col">knowledge</th>
+                    <th scope="col">Programming languages</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row"></th>
+                    <td>Communication</td>
+                    <td>Microsoft Word</td>
+                    <td><img class="img-icons" src="./assets/img/html-5.svg" alt="html"></td>
+                    
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td>Leadership</td>
+                    <td>Microsoft Excel</td>
+                    <td><img class="img-icons"src="./assets/img/css-3.svg" alt=""></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td>Motivation</td>
+                    <td>Computing</td>
+                    <td><img class="img-icons"src="./assets/img/node-sass.svg" alt=""></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td>Teamwork</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              
             <div class="d-flex justify-content-center">
-            <a href="./assets/img/Mi Cv.pdf" class="btn btn-primary " id="btn">Descargar mi CV</a>
+            <a href="./assets/img/Mi Cv.pdf"> <img  class="img-i"  src="./assets/img/descarga.jpg" alt="descarga"></a>
+            
          </div>
           </div>
         </div>
@@ -128,48 +146,70 @@
     </div>
 
     <div class="group1">
-      <div class="cards card-container">
-        <img class="card-img-top" src="./assets/img/Captura de pantalla 2022-11-17 110908.png" alt="Card image cap">
+      <div class="cards">
+        <a name="Articulos"></a>
+        <img class="card-img-top cards__img" src="./assets/img/articulos.png" alt="Card image cap">
         
         <div class="card-body link">
-          <a href="https://github.com/victoriaramos2777/Digital-Newspaper.git">
+          <a href="https://github.com/victoriaramos2777/Articulos-de-ciclismos.git">
             <img id="git" src="./assets/img/github.svg" alt="github"></a>
-          <a href="https://github.com/victoriaramos2777/Digital-Newspaper.git">
-            <img id="git" src="./assets/img/github.svg" alt="github"></a>
+          <a href=" https://victoriaramos2777.github.io/Articulos-de-ciclismos/">
+            <img id="git" src="./assets/img/5442033.png" alt="github"></a>
         </div>
       </div>
       <div class="cards">
-        <img class="card-img-top" src="./assets/img/Captura de pantalla 2022-11-17 110908.png" alt="Card image cap">
+        <img class="card-img-top cards__img" src="./assets/img/Captura de leo.png" alt="Card image cap">
         
         <div class="card-body link" >
-          <a href="https://github.com/victoriaramos2777/Digital-Newspaper.git">
+          <a href="https://github.com/victoriaramos2777/Leonardo-Da-vinci.git">
             <img id="git" src="./assets/img/github.svg" alt="github"></a>
-            <a href="https://github.com/victoriaramos2777/Digital-Newspaper.git">
+            <a href=" https://victoriaramos2777.github.io/Leonardo-Da-vinci/">
               <img id="git" src="./assets/img/5442033.png" alt="github"></a>
             </div>
           </div>
+          <div class="cards">
+            <img class="card-img-top cards__img" src="./assets/img/Captura de leo.png" alt="Card image cap">
+            
+            <div class="card-body link" >
+              <a href="https://github.com/victoriaramos2777/Leonardo-Da-vinci.git">
+                <img id="git" src="./assets/img/github.svg" alt="github"></a>
+                <a href=" https://victoriaramos2777.github.io/Leonardo-Da-vinci/">
+                  <img id="git" src="./assets/img/5442033.png" alt="github"></a>
+                </div>
+              </div>
         </div>
       
       
     <div class="group2">
     <div class="cards">
-      <img class="card-img-top" src="./assets/img/Captura de pantalla 2022-11-17 110908.png" alt="Card image cap">
+      <img class="card-img-top cards__img" src="./assets/img/Captura de pantalla 2022-11-17 110908.png" alt="Card image cap">
       
       <div class="card-body link">
         <a href="https://github.com/victoriaramos2777/Digital-Newspaper.git">
           <img id="git" src="./assets/img/github.svg" alt="github"></a>
-        <a href="https://github.com/victoriaramos2777/Digital-Newspaper.git">
-          <img id="git" src="./assets/img/5442033.png" alt="github"></a>
+        <a href=" https://victoriaramos2777.github.io/Digital-Newspaper/">
+          <img id="git" src="./assets/img/5442033.png" alt="pages"></a>
       </div>
     </div>
     <div class="cards">
-      <img class="card-img-top" src="./assets/img/Captura de pantalla 2022-11-17 110908.png" alt="Card image cap">
+      <img class="card-img-top cards__img" src="./assets/img/captura2.png" alt="Card image cap">
       
-      <div class="card-body link">
-        <a href="https://github.com/victoriaramos2777/Digital-Newspaper.git">
+      <div class="card-body link ">
+        <a href="https://github.com/victoriaramos2777/Universidad-Tecnica-Medioambiental.git">
           <img id="git" src="./assets/img/github.svg" alt="github"></a>
-        <a href="https://github.com/victoriaramos2777/Digital-Newspaper.git">
-          <img id="git" src="./assets/img/5442033.png" alt="github"></a>
+        <a href=" https://victoriaramos2777.github.io/Universidad-Tecnica-Medioambiental/">
+          <img id="git" src="./assets/img/5442033.png" alt="pages"></a>
+      </div>
+    </div>
+
+    <div class="cards">
+      <img class="card-img-top cards__img" src="./assets/img/captura2.png" alt="Card image cap">
+      
+      <div class="card-body link ">
+        <a href="https://github.com/victoriaramos2777/Universidad-Tecnica-Medioambiental.git">
+          <img id="git" src="./assets/img/github.svg" alt="github"></a>
+        <a href=" https://victoriaramos2777.github.io/Universidad-Tecnica-Medioambiental/">
+          <img id="git" src="./assets/img/5442033.png" alt="pages"></a>
       </div>
     </div>
     </div>
