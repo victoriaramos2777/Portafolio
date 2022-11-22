@@ -58,25 +58,57 @@ font-family: 'Raleway', sans-serif;
     
 
 .img-icon {
-    width: 3%;
+    width:3%;
     margin-top: 1%;
-    
-}
-#card4{
-  
-   margin: 0%;
 }
 
-.captura {
-   width:100% ;
-}
-
-#card4 {
+.container{
     width:100%;
-    margin-top: 2%;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    place-content: center;
+    margin-top:5%;
+ 
+}
     
+.table {
+    width: 100%;
+    &__items {
+        width: 100%;
+
+        &__row {
+            width: 30%;
+            
+            & td {
+                width: 30%;
+                text-align: center;
+               
+            }
+        }
+
+
+        &__rows-img {
+           
+            & img {
+                width: 30%;
+                height: 30%;
+            }
+        }
+    }
+}
+
+.img-icons {
+    width:20% ;
+}
+
+tbody, td, tfoot, th, thead, tr {
+    border-color: snow !important; 
+}
+
+.about{
+    background-image: linear-gradient(to right, #ff69b4, rgb(131, 131, 228), gray);
 }
 
 .group1{
@@ -127,10 +159,6 @@ font-family: 'Raleway', sans-serif;
 }
 
 
-.img-icons {
-    width: 20%;
-    margin-left: 25%;
-}
 .contact {
     display: flex;
     background-color: #fff;
@@ -138,7 +166,7 @@ font-family: 'Raleway', sans-serif;
     &__correo {
         width:40%;
         height: 80%;
-        margin-top: 10%;
+        margin-top: 4%;
     }
 }
 .form {
@@ -192,6 +220,14 @@ font-family: 'Raleway', sans-serif;
     border-radius: .2em;
     cursor: pointer;
     font-weight: 400;
+}
+.footer  {
+    padding:.2em;
+    &__copy {
+         font-family: inherit;
+         text-align: center;
+         font-size:1.5em;
+    }
 }
 
 @media ( max-width:500px) {
