@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@300;400;700&family=Raleway:wght@300;400;600&display=swap");
 * {
   margin: 0%;
   padding: 0%;
@@ -7,6 +8,9 @@
 body {
   background-image: linear-gradient(to right, #ff69b4, rgb(131, 131, 228), gray);
   width: 100%;
+  font-family: "Dancing Script", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .mia {
@@ -110,6 +114,110 @@ body {
 .img-icons {
   width: 20%;
   margin-left: 25%;
+}
+
+.contact {
+  display: flex;
+  background-color: #fff;
+  gap: 8%;
+}
+.contact__correo {
+  width: 40%;
+  height: 80%;
+  margin-top: 10%;
+}
+
+.form {
+  font-family: inherit;
+  background-color: #fff;
+  width: 50%;
+  max-width: 700px;
+  border-radius: 1em;
+  padding: 3%;
+  margin-top: 3%;
+}
+.form__container {
+  width: 100%;
+  display: grid;
+  gap: 1em;
+  grid-auto-columns: 100%;
+}
+.form__container__title {
+  text-align: center;
+  font-size: 1.9rem;
+  margin-bottom: 0.4em;
+}
+
+.form__input {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.8em 1em;
+  outline: none;
+  border: none;
+  border: 1px solid #bbb0b0;
+}
+
+.form__input--message {
+  resize: none;
+  padding: 1.8em 1em;
+}
+
+.form__cta {
+  font-family: inherit;
+  font-size: 1rem;
+  background-color: rgb(195, 151, 237);
+  color: #fff;
+  border: none;
+  font-weight: 300;
+  padding: 0.7em 0;
+  border-radius: 0.2em;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+@media (max-width: 500px) {
+  .form {
+    padding: 1em;
+    width: 100%;
+  }
+  .group1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+  }
+  .group2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+  }
+  .cards {
+    width: 100%;
+    height: 95%;
+    margin: 0%;
+  }
+  .cards__img {
+    width: 100%;
+    height: 95%;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .contact__correo {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
