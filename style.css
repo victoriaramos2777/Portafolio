@@ -197,11 +197,15 @@ tbody, td, tfoot, th, thead, tr {
 
 .footer {
   padding: 0.2em;
+  display: flex;
+  justify-content: space-around;
 }
 .footer__copy {
   font-family: inherit;
-  text-align: center;
   font-size: 1.5em;
+}
+.footer__copy__img3 {
+  margin-top: 1%;
 }
 
 @media (max-width: 500px) {
